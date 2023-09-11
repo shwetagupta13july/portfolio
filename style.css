@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Merriweather:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.nav {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+.nav-part2 ul {
+    display: flex;
+    gap: 4vw;
+
+}
+
+.nav h2 {
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(211, 77, 77);
+}
+
+.nav-part2 ul li {
+    list-style-type: none;
+}
+
+.nav-part2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.nav-part2 ul li a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+/* main body content */
+
+.content {
+    padding: 5vw 4vw;
+}
+
+.content h2 {
+    cursor: pointer;
+    font-size: 3vw;
+    color: rgb(135, 135, 40);
+}
+
+.content p {
+    font-size: 2vw;
+    color: white;
+}
+
+.content span {
+    margin-left: 1vw;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.web {
+    color: rgb(135, 135, 40);
+
+}
+
+/* main body content-text  */
+
+.content-text {
+    color: white;
+    padding: 0 4vw;
+    margin-top: -3vw;
+}
+
+.right img {
+    margin-top: -18vw;
+    margin-right: 2vw;
+    float: right;
+    height: 25vw;
+    width: 45vw;
+    border-radius: 50%;
+    animation: blin 1s linear infinite
+}
+
+@keyframes blin {
+    100% {
+        opacity: 0;
+    }
+}
+
+/* styling for education  */
+
+
+.edu {
+    padding: 5vw 4vw;
+    color: rgb(44, 128, 36);
+    font-size: 4vw;
+}
+
+.edu p {
+    font-size: 2vw;
+    color: rgb(52, 115, 115);
+    cursor: pointer;
+
+}
+
+.logo img {
+
+    margin-top: -35vw;
+    margin-right: 2vw;
+    float: right;
+    height: 25vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+
+/*  contanct page links styling  */
+
+.links{
+    color: grey;
+    padding: 5vw 4vw;
+   
+}
+ .anim { 
+    font-size: 2vw;
+} 
+.anim p{
+    margin-top: 1vw;
+    /* font-size: 4vw; */
+    animation-delay: 50s;
+
+}
+
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.18s linear forwards;
+}
+.first{
+    animation-delay: 0.5s;
+}
+.sec{
+    animation-delay: 1.5s; 
+}
+.third{
+    animation-delay: 2s; 
+
+}
+.forth{
+    animation-delay: 2.5s; 
+
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+ } 

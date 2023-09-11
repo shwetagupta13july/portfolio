@@ -1,0 +1,105 @@
+@media (max-width : 900px) {
+    .nav-part2 ul li a {
+        color: rgb(220, 210, 62);
+        text-decoration: none;
+        font-size: 3vw;
+        cursor: pointer;
+    }
+
+    .nav {
+        padding: 0 8vw;
+        background-color: rgb(130, 108, 80);
+        height: 80px;
+    }
+
+    .nav h2 {
+        color: white;
+        font-size: 3.4vw;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    span {
+        color: rgb(195, 248, 37);
+    }
+
+    /* main body content */
+
+    .content h2 {
+        color: rgb(90, 107, 218);
+        font-size: 4vw;
+    }
+
+
+    .content p {
+        margin-top: 3vw;
+        font-size: 4vw;
+        color: white;
+
+    }
+
+    .content {
+        padding: 9vw 8vw;
+    }
+
+    .content span {
+        margin-left: 1vw;
+        font-size: 6vw;
+        font-weight: 900;
+
+    }
+
+    .web {
+        color: rgb(90, 107, 218);
+
+    }
+
+    .content-text p {
+        font-size: 4vw;
+    }
+
+    .right img {
+        height: 290px;
+        width: 300px;
+        margin-top: 5vw;
+        margin-right: 9vw;
+    }
+
+    /* styling for part ofeducation  */
+
+
+    .edu {
+        padding: 10vw 9vw;
+        color: rgb(44, 128, 36);
+        font-size: 8vw;
+        cursor: pointer;
+    }
+
+    .edu p {
+        margin-top: 10px;
+        font-size: 4vw;
+        color: rgb(150, 124, 44);
+        cursor: pointer;
+
+    }
+
+    .edu h2:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .links {
+        padding: 10vw 9vw;
+        margin-top: 26px;
+    }
+.links h2{
+    font-size: 40px;
+}
+.links p{
+    font-size: 25px;
+}
+}
